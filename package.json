@@ -8,9 +8,10 @@
     "start": "sass --watch src/scss:dist/css & live-server",
     "lint": "eslint src/**/*.js",
     "format": "prettier --write src/**/*.js",
-    "test": "npm run test-e2e",
-    "test-e2e": "cypress open",
+    "test:unit": "jest",
+    "test:e2e": "cypress open",
     "prepare": "husky install"
+    
   },
   "keywords": [],
   "author": "Noroff",
